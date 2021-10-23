@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>Form Pemesanan Pizza</title>
+ <meta charset="UTF-8">
+ </head>
+ <body bgcolor="beige" text="black">
+     <h2>Fadly Syahputra| Formulir Pemesanan</h2>
+     <p>yang memesan makanan </p>
+     <fieldset>
+         <legend><b>Informasi anda</b></legend>
+        <ol>
+            <li><label>Nama: <input type="text" name="username"
+                value="" size="20"/> 
+            <li><label>Alamat: <input type="alamat" name="username"
+                value="" size="20"/>
+            <li><label>Nomor Telfon <input type="nomor telfon" name="username"
+                value="" size="20"/> ></label></li>
+                
+            <li><label>Email: <input type="email" name="username"
+                value="" size="30"/> </label></li>
+            Catatan Pemesanan:<br/><textarea input type="catatan pemesanan" name="username"size="20"></textarea></li>
+        </ol>
+     </fieldset>
+     <h3>Buat Pizza Impianmu</h3>
+     <h4>Bahan Roti (pilih salah satu):</h4>
+     <form>  
+         <input type="radio" name="bahan roti" value="ubi ungu">Ubi ungu<br>
+         <input type="radio" name="bahan roti" value="original">original <br>
+         <input type="radio" name="bahan roti" value="Tepung">Tepung<br>
+         <input type="radio" name="bahan roti" value="Telur">Telur<br>
+     </form>
+     <h4>Toppings (pilih sebanyak yang kamu mau):</h4>
+     <form>
+         <input type="checkbox" id="roti1" name="roti1" value="aku mau speceial">
+         <label for="roti1">Aku mau speceial</label><br>
+         <input type="checkbox" id="roti2" name="roti2" value="aku mau isi keju">
+         <label for="roti2">Aku mau isi keju</label><br>
+         <input type="checkbox" id="roti3" name="roti3" value="aku mau jamur atau Mushroom">
+         <label for="roti3">Aku mau jamur atau Mushroom</label><br>
+         <input type="checkbox" id="roti4" name="roti4" value="aku mau sosis">
+         <label for="roti4">Aku mau sosis</label><br>
+     </form>
+     <br/>
+     <label >Banyaknya Pizza:<input type="number" name="pizza" min="1" max="6"></label>
+     <br/>
+     <p><input type="submit" value="Pesan"> <input type="reset"></p>
+</body>
+</html>
